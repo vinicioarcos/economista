@@ -1,0 +1,26 @@
+name: Actualización de perfil
+description: Solicitar un cambio de contenido con evidencia verificable
+title: "[Contenido]: "
+labels: ["contenido"]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: Cambio solicitado
+      description: Indique exactamente qué debe añadirse, corregirse u omitirse.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia o enlace público
+      description: Incluya repositorio, documento, credencial o página institucional.
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Autorización
+      options:
+        - label: El titular autoriza publicar esta información.
+          required: true

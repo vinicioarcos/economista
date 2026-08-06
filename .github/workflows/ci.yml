@@ -1,0 +1,21 @@
+name: Calidad
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build:vercel
+      - name: Verificar hoja de vida
+        run: test -s public/downloads/hoja-de-vida-economista.pdf

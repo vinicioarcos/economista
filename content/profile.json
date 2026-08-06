@@ -1,0 +1,209 @@
+{
+  "demo": false,
+  "updatedAt": "2026-08-06",
+  "sourceNote": "Datos extraídos de la hoja de vida 2025 de Edwin Vinicio Arcos Naranjo (Formulario_Portafolio_Vinicio_Arcos_Completado.docx). Autorización de correo, teléfono y enlaces confirmada por el titular el 2026-08-06. Faltan LinkedIn, fechas exactas de varios cargos, fotografía profesional autorizada y preferencias de marca.",
+  "name": "Edwin Vinicio Arcos Naranjo",
+  "professionalName": "Econ. Edwin Vinicio Arcos Naranjo, MSc.",
+  "shortName": "Vinicio Arcos",
+  "initials": "VA",
+  "headline": "Economista, docente e investigador · Candidato a doctor en Políticas Públicas",
+  "location": "Milagro, Ecuador",
+  "email": "vinicioarcosnaranjo@gmail.com",
+  "phone": "0992535336",
+  "summary": "Economista y magíster en Economía del Desarrollo; candidato a doctor en Políticas Públicas. Docente, investigador, capacitador y facilitador con experiencia en econometría, estadística, ciencia de datos, economía del desarrollo, economía laboral, economía ambiental, economía de la educación y políticas públicas.",
+  "strengths": [
+    "Métodos cuantitativos y evaluación de impacto",
+    "Docencia universitaria presencial y virtual",
+    "Manejo de Python, R, Stata, SPSS y herramientas geoespaciales",
+    "Formulación y evaluación de proyectos",
+    "Comunicación y trabajo multidisciplinario"
+  ],
+  "education": [
+    {
+      "credential": "Candidato a Doctor en Políticas Públicas",
+      "institution": "FLACSO Ecuador",
+      "detail": "Doctorado de investigación, periodo de tesis. Propuesta: \"Cobertura de Seguro Social y Mercado laboral en Ecuador\". Beca de cuarto nivel.",
+      "period": "Periodo no especificado"
+    },
+    {
+      "credential": "Magíster en Economía, mención Economía del Desarrollo",
+      "institution": "FLACSO Ecuador",
+      "detail": "Máster de investigación. Registro SENESCYT 1026-15-86064999. Tesis: \"El Mandato 8 y su impacto en el mercado laboral ecuatoriano\". Beca.",
+      "period": "Periodo no especificado"
+    },
+    {
+      "credential": "Economista",
+      "institution": "Universidad Católica de Cuenca",
+      "detail": "Registro SENESCYT 1029-12-1104839. Tesis: \"El microcrédito como factor de desarrollo humano\".",
+      "period": "Periodo no especificado"
+    }
+  ],
+  "experience": {
+    "professional": [
+      {
+        "role": "Asesor",
+        "organization": "IESS",
+        "detail": "Estudios financieros y actuariales para políticas públicas; diagnóstico de seguridad social y gestión de políticas institucionales.",
+        "period": "Periodo no especificado"
+      },
+      {
+        "role": "Director de Participación",
+        "organization": "Superintendencia de la Información",
+        "detail": "Diseño e implementación de procesos y planificación operativa anual.",
+        "period": "Periodo no especificado"
+      },
+      {
+        "role": "Capacitador y facilitador",
+        "organization": "FES-ILDIS",
+        "detail": "Capacitación en temas sociolaborales y Escuela de Formación Permanente para Actores Sociales.",
+        "period": "Periodo no especificado"
+      }
+    ],
+    "teaching": [
+      {
+        "role": "Docente investigador",
+        "institution": "Universidad Técnica de Cotopaxi",
+        "subjects": "Econometría, Metodología de la Investigación, Macroeconomía y Estadística.",
+        "period": "Actualidad"
+      },
+      {
+        "role": "Docente investigador",
+        "institution": "Universidad Estatal de Milagro",
+        "subjects": "Econometría, Estadística, Microeconomía, Macroeconomía, Realidad Nacional, Historia del Pensamiento Económico, Políticas Públicas, Ingeniería Económica y Evaluación Financiera de Proyectos.",
+        "period": "Periodo no especificado"
+      },
+      {
+        "role": "Docente",
+        "institution": "Universidad Nacional de Chimborazo",
+        "subjects": "Econometría, Modelización Económica y Finanzas Corporativas.",
+        "period": "Periodo no especificado"
+      },
+      {
+        "role": "Docente de pregrado online",
+        "institution": "Universidad de Especialidades Turísticas",
+        "subjects": "Diseño y Evaluación de Proyectos Sociales.",
+        "period": "Periodo no especificado"
+      },
+      {
+        "role": "Docente de pregrado",
+        "institution": "Universidad Tecnológica Equinoccial",
+        "subjects": "Análisis Financiero e Investigación de Operaciones.",
+        "period": "Periodo no especificado"
+      },
+      {
+        "role": "Docente de pregrado e investigador",
+        "institution": "Universidad Técnica de Ambato",
+        "subjects": "Economía presencial y semipresencial; coordinación de área, tutoría Moodle y redacción de proyecto de investigación.",
+        "period": "Periodo no especificado"
+      },
+      {
+        "role": "Docente de maestría",
+        "institution": "Universidades Estatal de Bolívar, Estatal de Milagro y Nacional de Chimborazo",
+        "subjects": "Relaciones intersectoriales en el desarrollo local; Políticas Públicas; Valoración Económica Ambiental.",
+        "period": "Periodo no especificado"
+      },
+      {
+        "role": "Becario de doctorado y maestría",
+        "institution": "FLACSO Ecuador",
+        "subjects": "Apoyo académico e investigación, lectura de tesis y propuestas, cursos, asistencia en proyecto de gasto público, materiales educativos y tratamiento de datos.",
+        "period": "Periodo no especificado"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Análisis Econométrico del Mercado Laboral con microdatos ENEMDU",
+      "institution": "Universidad Técnica de Cotopaxi",
+      "period": "2025-2027",
+      "link": "https://osf.io/aj94n/",
+      "note": "Métodos y resultados detallados no constan en la hoja de vida; consultar el repositorio OSF."
+    },
+    {
+      "title": "Cifras y Narrativas: Reflexiones desde el Censo de Ecuador",
+      "institution": "Universidad Técnica de Cotopaxi",
+      "period": "2024-2025",
+      "link": "https://osf.io/dfyuj/",
+      "note": "Métodos y resultados detallados no constan en la hoja de vida; consultar el repositorio OSF."
+    },
+    {
+      "title": "Análisis socioeconómico de los sectores productivos del cantón Latacunga",
+      "institution": "Universidad Técnica de Cotopaxi",
+      "period": "2024-2025",
+      "link": "https://osf.io/xwu6c/",
+      "note": "Métodos y resultados detallados no constan en la hoja de vida; consultar el repositorio OSF."
+    }
+  ],
+  "publications": {
+    "articles": [
+      {
+        "year": "2025",
+        "reference": "Angueta-López, M. P., Quimbita-Tarco, H. A. y Arcos-Naranjo, E. V. Evolución de las empresas fantasmas e inexistentes y el perjuicio causado al Estado ecuatoriano, 2017-2023. Revista Científica Zambos, 4(1), 45-60.",
+        "link": "https://doi.org/10.69484/rcz/v4/n1/75"
+      },
+      {
+        "year": "2020",
+        "reference": "Arcos-Naranjo, E. V., Andocilla-Cabrera, J. R. y Martínez-Valencia, K. M. Impacto de la oferta educativa superior en la búsqueda de talento humano por parte de las empresas. Magazine de las Ciencias, 5(6), 15-26.",
+        "link": "https://revistas.utb.edu.ec/index.php/magazine/article/view/462"
+      },
+      {
+        "year": "2020",
+        "reference": "España Merchán, Y. y Arcos Naranjo, V. Políticas Estatales: una mirada hacia la inserción laboral y empleabilidad de Bachilleres Rurales. Revista Mapa, 6(18), 65-83.",
+        "link": "http://revistamapa.org/index.php/es"
+      },
+      {
+        "year": "2015",
+        "reference": "Larrea Maldonado, A. M.; Hernández, F.; Rivera, J.; Mera, M. y Arcos, V. Debates actuales y perspectivas sobre las políticas sociales en América Latina: entrevista con Rolando Franco. Mundos Plurales, 2(2), 95-104.",
+        "link": "http://hdl.handle.net/10469/8011"
+      }
+    ],
+    "book": {
+      "year": "2022",
+      "reference": "Arcos-Naranjo, E. V. (2022). La trampa del voto popular: Cómo las mayorías pueden amenazar la democracia y el bienestar (1.ª ed.). Amazon.",
+      "link": "https://a.co/d/3hArPfX"
+    }
+  },
+  "courses": [
+    { "title": "Metodologías activas y recursos de aprendizaje aplicados a la educación superior", "institution": "Universidad Técnica de Cotopaxi", "duration": "40 horas" },
+    { "title": "Flipped Classroom: una experiencia pedagógica innovadora", "institution": "Escuela Politécnica Nacional", "duration": "64 horas" },
+    { "title": "Formación Docente UNEMI 2020", "institution": "Universidad Estatal de Milagro", "duration": "80 horas" },
+    { "title": "Programa Básico de Formación Docente UNEMI", "institution": "Universidad Estatal de Milagro", "duration": "600 horas" },
+    { "title": "Docencia Universitaria", "institution": "Universidad Técnica de Ambato", "duration": "80 horas" },
+    { "title": "Lenguaje de programación Python para Economía", "institution": "Universidad Técnica de Cotopaxi", "duration": "40 horas" },
+    { "title": "Microeconomía aplicada a la Geografía Económica / CFC 2025", "institution": "FLACSO", "duration": "40 horas" },
+    { "title": "Econometría aplicada en R", "institution": "Estudios Econométricos", "duration": "448 horas" },
+    { "title": "SPSS Avanzado", "institution": "Escuela Politécnica Nacional", "duration": "48 horas" },
+    { "title": "Estadística aplicada con R Studio", "institution": "Escuela Politécnica Nacional", "duration": "40 horas" },
+    { "title": "Cómo armar un proyecto de investigación", "institution": "Universidad Técnica de Ambato", "duration": "120 horas" },
+    { "title": "Evaluación financiera de proyectos de inversión", "institution": "Escuela Politécnica Nacional", "duration": "40 horas" },
+    { "title": "Diseño y formulación de proyectos con marco lógico", "institution": "Escuela Politécnica Nacional", "duration": "40 horas" }
+  ],
+  "skills": {
+    "methods": ["Evaluación de impacto", "Estadística descriptiva, inferencial y predictiva", "Econometría", "Ciencia de datos", "Modelación económica"],
+    "software": ["Python", "R", "Stata", "SPSS", "KoboToolbox"],
+    "gis": ["QGIS", "GeoDa", "ArcGIS"],
+    "visualization": ["Power BI", "Tableau"],
+    "platforms": ["LMS", "CMS", "Moodle", "Open Journal System"],
+    "systems": ["Linux", "Arch Linux", "Ubuntu", "Microsoft Excel", "Microsoft Word"],
+    "researchLines": ["Economía del Desarrollo", "Economía Laboral", "Economía Ambiental", "Economía de la Educación", "Políticas Públicas"]
+  },
+  "languages": [
+    { "name": "Inglés", "level": "Avanzado", "source": "Escuela Politécnica Nacional" }
+  ],
+  "links": {
+    "website": "https://www.vinicioarcos.net",
+    "github": "https://vinicioarcos.github.io",
+    "services": "https://vinicioarcos.arcdataconsulting.com/",
+    "orcid": "0000-0002-5491-7127",
+    "osf": "https://osf.io/z92qh",
+    "linkedin": ""
+  },
+  "pending": [
+    "LinkedIn: no consta en la hoja de vida.",
+    "Preferencias de marca (adjetivos, colores): no constan en la hoja de vida.",
+    "Tipo de oportunidades buscadas: no consta en la hoja de vida.",
+    "Fechas exactas de la mayoría de cargos profesionales, docentes y de formación: no constan en la hoja de vida.",
+    "Fotografía profesional autorizada: la hoja de vida incluye una imagen incorporada, pero no el archivo original ni autorización expresa para reutilizarla; el sitio sigue mostrando una imagen de demostración.",
+    "Certificados de las capacitaciones: no fueron adjuntados, solo se listan en la hoja de vida.",
+    "Biografía corta para la sección de marca: pendiente de aprobación del titular."
+  ]
+}
