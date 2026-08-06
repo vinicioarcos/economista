@@ -85,8 +85,7 @@ export default function Home() {
         </div>
         <aside className="hero-card" aria-label="Perfil profesional resumido">
           <div className="portrait">
-            <Image src="/images/portrait-economista-demo.png" alt={`Retrato ficticio generado por IA para demostrar la composición; debe sustituirse por la fotografía autorizada de ${profile.shortName}`} fill sizes="(max-width: 900px) 90vw, 30vw" priority />
-            <span className="demo-label">Imagen de demostración generada por IA</span>
+            <Image src="/images/portrait-vinicio-arcos.png" alt={`Retrato profesional de ${profile.professionalName}`} fill sizes="(max-width: 900px) 90vw, 30vw" priority />
           </div>
           <div className="availability"><i /> {currentTeaching ? `${currentTeaching.role} · ${currentTeaching.institution}` : "Estado profesional por confirmar"}</div>
           <div className="hero-stats">

@@ -49,3 +49,7 @@ next-env.d.ts
 # formulario de intake completado con datos personales sin procesar;
 # la fuente de verdad publicada es content/profile.json
 /Formulario_Portafolio_Vinicio_Arcos_Completado.docx
+
+# fotos originales entregadas por el titular; la copia publicada
+# vive en public/images/
+/fotos/
