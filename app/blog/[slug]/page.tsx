@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import profile from "@/content/profile.json";
 import { blogPosts } from "../posts";
 
+type PageParams = { params: Promise<{ slug: string }> };
+
 export function generateStaticParams() {
   return profile.blog.map((post) => ({ slug: post.slug }));
 }
@@ -15,8 +17,9 @@ function getPost(slug: string) {
   return { meta, content };
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const post = getPost(params.slug);
+export async function generateMetadata({ params }: PageParams): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPost(slug);
   if (!post) return {};
   return {
     title: `${post.meta.title} | ${profile.shortName}`,
@@ -24,8 +27,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = getPost(params.slug);
+export default async function BlogPostPage({ params }: PageParams) {
+  const { slug } = await params;
+  const post = getPost(slug);
   if (!post) notFound();
 
   return (
