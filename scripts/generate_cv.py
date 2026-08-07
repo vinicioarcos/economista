@@ -121,8 +121,8 @@ right += [Paragraph("CONTACTO", styles["SideSection"]),
            Paragraph(f"{profile['email']}<br/>{profile['phone']}<br/>{profile['location']}", styles["Side"])]
 right += [Paragraph("ENLACES", styles["SideSection"]),
            Paragraph(
-               f"{profile['links']['website']}<br/>ORCID {profile['links']['orcid']}<br/>"
-               f"{profile['links']['github']}<br/>{profile['links']['osf']}<br/>{profile['links']['services']}",
+               f"{profile['links']['website']}<br/>{profile['links']['linkedin']}<br/>ORCID {profile['links']['orcid']}<br/>"
+               f"{profile['links']['github']}<br/>{profile['links']['osf']}",
                styles["Side"],
            )]
 tools = profile["skills"]["software"] + profile["skills"]["gis"] + profile["skills"]["visualization"]

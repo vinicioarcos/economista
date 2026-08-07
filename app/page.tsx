@@ -50,11 +50,7 @@ const trainingItems = profile.courses.map((course) => ({
   note: course.institution,
 }));
 
-const posts = [
-  { date: "Sin fecha", title: "Artículo por redactar y verificar", category: "Tema pendiente" },
-  { date: "Sin fecha", title: "Artículo por redactar y verificar", category: "Tema pendiente" },
-  { date: "Sin fecha", title: "Artículo por redactar y verificar", category: "Tema pendiente" },
-];
+const posts = profile.blog;
 
 export default function Home() {
   return (
@@ -80,7 +76,6 @@ export default function Home() {
           <p className="hero-lead">{profile.summary}</p>
           <div className="hero-actions">
             <a className="button primary" href="/downloads/hoja-de-vida-economista.pdf" download>Descargar hoja de vida <Arrow /></a>
-            <a className="button secondary" href="/downloads/formulario-datos-portafolio.docx" download>Formulario Word</a>
           </div>
         </div>
         <aside className="hero-card" aria-label="Perfil profesional resumido">
@@ -183,11 +178,11 @@ export default function Home() {
       <section className="blog section-pad" id="blog">
         <div className="section-heading">
           <div><p className="section-kicker">06 · Blog</p><h2>Notas desde el escritorio</h2></div>
-          <p>El blog permanecerá como plantilla hasta que existan textos originales del titular.</p>
+          <p>Artículos originales sobre economía, inteligencia artificial y políticas públicas.</p>
         </div>
         <div className="post-grid">
           {posts.map((post) => (
-            <article key={post.title}><div><span>{post.category}</span><time>{post.date}</time></div><h3>{post.title}</h3><a href="#contacto">Próximamente <Arrow /></a></article>
+            <article key={post.slug}><div><span>{post.category}</span><time>{post.date}</time></div><h3>{post.title}</h3><a href={`/blog/${post.slug}`}>Leer artículo <Arrow /></a></article>
           ))}
         </div>
       </section>
@@ -201,22 +196,26 @@ export default function Home() {
           </p>
           <p>
             <a href={profile.links.website} target="_blank" rel="noopener noreferrer">Sitio web</a> ·{" "}
-            <a href={profile.links.services} target="_blank" rel="noopener noreferrer">Servicios</a> ·{" "}
+            <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a> ·{" "}
             <a href={profile.links.github} target="_blank" rel="noopener noreferrer">GitHub Pages</a> ·{" "}
             <a href={`https://orcid.org/${profile.links.orcid}`} target="_blank" rel="noopener noreferrer">ORCID</a> ·{" "}
-            <a href={profile.links.osf} target="_blank" rel="noopener noreferrer">OSF</a>
+            <a href={profile.links.osf} target="_blank" rel="noopener noreferrer">OSF</a> ·{" "}
+            <a href={profile.links.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
           </p>
           <div className="download-actions">
-            <a className="button light" href="/downloads/formulario-datos-portafolio.docx" download>Descargar formulario Word <Arrow /></a>
             <a className="button outline-light" href="/downloads/hoja-de-vida-economista.pdf" download>Descargar hoja de vida <Arrow /></a>
           </div>
-          <small>LinkedIn y las fechas exactas de algunos cargos siguen pendientes de confirmación por el titular.</small>
+          <small>Las fechas exactas de algunos cargos siguen pendientes de confirmación por el titular.</small>
         </div>
       </section>
 
       <footer>
         <div className="brand"><span>{profile.initials}</span><b>{profile.shortName}</b></div>
-        <p>Economía con evidencia. Decisiones con contexto.</p>
+        <p>
+          Economía con evidencia. Decisiones con contexto.
+          <br />
+          Sponsor: <a href={profile.sponsor.url} target="_blank" rel="noopener noreferrer">{profile.sponsor.name}</a>
+        </p>
         <div><a href="#inicio">Volver arriba ↑</a></div>
       </footer>
     </main>

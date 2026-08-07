@@ -1,11 +1,12 @@
 {
   "demo": false,
   "updatedAt": "2026-08-06",
-  "sourceNote": "Datos extraídos de la hoja de vida 2025 de Edwin Vinicio Arcos Naranjo (Formulario_Portafolio_Vinicio_Arcos_Completado.docx). Autorización de correo, teléfono, enlaces y fotografía profesional (public/images/portrait-vinicio-arcos.png) confirmada por el titular el 2026-08-06. Faltan LinkedIn, fechas exactas de varios cargos y preferencias de marca.",
+  "sourceNote": "Datos extraídos de la hoja de vida 2025 de Edwin Vinicio Arcos Naranjo (Formulario_Portafolio_Vinicio_Arcos_Completado.docx) y ampliados/corregidos por el titular el 2026-08-06: LinkedIn, Instagram, fotografía profesional, cuatro publicaciones adicionales (2025-2026), detalle de la tesis de pregrado (2011) y título corregido de la tesis de maestría FLACSO (\"Impacto de la eliminación de la tercerización...\", 2015, reemplaza el título previo \"El Mandato 8...\"). Autorización de correo, teléfono, enlaces y fotografía confirmada por el titular. Faltan fechas exactas de varios cargos y preferencias de marca.",
   "name": "Edwin Vinicio Arcos Naranjo",
   "professionalName": "Econ. Edwin Vinicio Arcos Naranjo, MSc.",
   "shortName": "Vinicio Arcos",
   "initials": "VA",
+  "sponsor": { "name": "ArcData Consulting", "url": "https://www.arcdataconsulting.com/" },
   "headline": "Economista, docente e investigador · Candidato a doctor en Políticas Públicas",
   "location": "Milagro, Ecuador",
   "email": "vinicioarcosnaranjo@gmail.com",
@@ -28,14 +29,14 @@
     {
       "credential": "Magíster en Economía, mención Economía del Desarrollo",
       "institution": "FLACSO Ecuador",
-      "detail": "Máster de investigación. Registro SENESCYT 1026-15-86064999. Tesis: \"El Mandato 8 y su impacto en el mercado laboral ecuatoriano\". Beca.",
-      "period": "Periodo no especificado"
+      "detail": "Máster de investigación. Registro SENESCYT 1026-15-86064999. Tesis: \"Impacto de la eliminación de la tercerización y los resultados en la capacitación laboral en el Ecuador\". Beca.",
+      "period": "2015"
     },
     {
       "credential": "Economista",
       "institution": "Universidad Católica de Cuenca",
-      "detail": "Registro SENESCYT 1029-12-1104839. Tesis: \"El microcrédito como factor de desarrollo humano\".",
-      "period": "Periodo no especificado"
+      "detail": "Registro SENESCYT 1029-12-1104839. Trabajo de investigación: \"El microcrédito como factor de desarrollo humano en relación con la realidad socioeconómica de los desempleados del cantón Cayambe, provincia de Pichincha, durante el período 2009-2010\". Quito, 2011.",
+      "period": "2011"
     }
   ],
   "experience": {
@@ -136,9 +137,24 @@
   "publications": {
     "articles": [
       {
+        "year": "2026",
+        "reference": "Arcos-Naranjo, E., Santamaria-Quishpe, G. y Bonilla-Galeas, E. Determinantes socioeconómicos de la Autoidentificación Étnica en Ecuador: un análisis desde el modelo Probit. 593 Digital Publisher CEIT, 11(1), 563-573.",
+        "link": "https://doi.org/10.33386/593dp.2026.1.3803"
+      },
+      {
+        "year": "2026",
+        "reference": "Semblantes-Guamán, R. P., Salinas-Quintana, S. y Arcos-Naranjo, E. V. Análisis de la brecha salarial de género en Ecuador: una descomposición cuantílica con datos de la Enemdu 2024. Innova Science Journal, 4(1), 159-166.",
+        "link": "https://doi.org/10.63618/omd/isj/v4/n1/218"
+      },
+      {
         "year": "2025",
         "reference": "Angueta-López, M. P., Quimbita-Tarco, H. A. y Arcos-Naranjo, E. V. Evolución de las empresas fantasmas e inexistentes y el perjuicio causado al Estado ecuatoriano, 2017-2023. Revista Científica Zambos, 4(1), 45-60.",
         "link": "https://doi.org/10.69484/rcz/v4/n1/75"
+      },
+      {
+        "year": "2025",
+        "reference": "Padilla-Barriga, D., Sarabia-Sarzosa, J. y Arcos-Naranjo, E. Determinantes socioeconómicos y educativos del analfabetismo digital en el Ecuador: un análisis empírico con enfoque econométrico. 593 Digital Publisher CEIT, 10(6), 830-840.",
+        "link": "https://doi.org/10.33386/593dp.2025.6.3631"
       },
       {
         "year": "2020",
@@ -195,10 +211,30 @@
     "services": "https://vinicioarcos.arcdataconsulting.com/",
     "orcid": "0000-0002-5491-7127",
     "osf": "https://osf.io/z92qh",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/vinicioarcos/",
+    "instagram": "https://www.instagram.com/vinicioarcosnaranjo/"
   },
+  "blog": [
+    {
+      "slug": "economia-ia-estudiar-cambio-tecnologico",
+      "title": "Economía y la IA: estudiar en tiempos de cambio tecnológico",
+      "category": "Economía y educación",
+      "date": "2026-08-06"
+    },
+    {
+      "slug": "sobreeducacion-fenomeno-en-voga",
+      "title": "La sobreeducación, un fenómeno en voga",
+      "category": "Economía laboral",
+      "date": "2026-08-06"
+    },
+    {
+      "slug": "reglamentar-ia-caso-union-europea",
+      "title": "¿Se debe reglamentar el desarrollo e implementación de la IA? El caso de la Unión Europea",
+      "category": "Políticas públicas",
+      "date": "2026-08-06"
+    }
+  ],
   "pending": [
-    "LinkedIn: no consta en la hoja de vida.",
     "Preferencias de marca (adjetivos, colores): no constan en la hoja de vida.",
     "Tipo de oportunidades buscadas: no consta en la hoja de vida.",
     "Fechas exactas de la mayoría de cargos profesionales, docentes y de formación: no constan en la hoja de vida.",
